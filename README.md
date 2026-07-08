@@ -41,13 +41,13 @@ cmake ..
 cmake --build . --config Release
 ```
 
-##📂 Project Structure
+## 📂 Project Structure
 - include/: Header files (.h) with Doxygen-style comments.
 - src/: Source files (.cpp) including Pybind11 bindings.
 - python/: Benchmark and ablation study scripts.
 - third_party/: Submodules (e.g., pybind11).
 
 
-##📝 Author
+## 📝 Author
 djj2math
 Master of Mathematics, Shanghai Jiao Tong University (SJTU)
