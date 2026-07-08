@@ -17,12 +17,12 @@ A high-performance quantitative finance engine for European, Asian, and American
 ### 1. Language Performance: C++ vs NumPy
 C++ demonstrates significant advantages in memory locality and fine-grained parallelism.
 ![Performance Benchmark](docs/ultimate_benchmark.png)
-*Result: C++ (12T) is significantly faster than vectorized NumPy for $10^7$ simulations.*
+*Result: C++ (12T) is significantly faster than vectorized NumPy for 10<sup>7</sup> simulations.*
 
 ### 2. Math Depth: Convergence of Control Variates
 Variance reduction techniques allow the engine to achieve higher precision with fewer samples.
 ![Math Convergence](docs/math_convergence.png)
-*Result: Control Variates (CV) achieve $10^{-4}$ precision significantly faster than standard MC.*
+*Result: Control Variates (CV) achieve 10<sup>-4</sup> precision significantly faster than standard MC.*
 
 ### 3. HPC Scaling: Parallel Efficiency
 Multi-threaded performance scales efficiently across physical cores.
