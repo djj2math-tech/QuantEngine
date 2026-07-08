@@ -1,0 +1,33 @@
+# --- 编译产物 ---
+out/
+build/
+bin/
+*.exe
+*.pyd
+*.pyd.recipe
+*.so
+*.obj
+*.pdb
+*.lib
+*.exp
+*.log
+*.tlog
+
+# --- IDE 配置文件 ---
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.suo
+
+# --- Python 缓存与结果 ---
+__pycache__/
+.ipynb_checkpoints/
+# 忽略 python 文件夹下生成的临时图片，我们手动把好的图片存到 docs/images
+python/*.png
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
